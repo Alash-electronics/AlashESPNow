@@ -1,4 +1,6 @@
-// AlashESPNow: передатчик. Отправляет текст раз в секунду на плату-приёмник (Receiver_ESP) и сообщает, дошло ли.
+// [ru] AlashESPNow: передатчик. Отправляет текст раз в секунду на плату-приёмник (Receiver_ESP) и сообщает, дошло ли.
+// [kk] AlashESPNow: таратқыш. Қабылдағыш тақтаға (Receiver_ESP) секунд сайын мәтін жібереді және жеткенін хабарлайды.
+// [en] AlashESPNow: the transmitter. Sends text once a second to the receiver board (Receiver_ESP) and reports whether it arrived.
 #include <AlashESPNow.h>
 
 const char *RECEIVER = "AA:BB:CC:DD:EE:FF";   // MAC приёмника: его печатает Receiver_ESP при запуске

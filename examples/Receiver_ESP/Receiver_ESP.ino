@@ -1,4 +1,6 @@
-// AlashESPNow: приёмник. Запустите его первым: он напечатает свой MAC-адрес, его надо вписать в скетч передатчика (Sender_ESP).
+// [ru] AlashESPNow: приёмник. Запустите его первым: он напечатает свой MAC-адрес, его надо вписать в скетч передатчика (Sender_ESP).
+// [kk] AlashESPNow: қабылдағыш. Оны бірінші іске қосыңыз: ол өз MAC-мекенжайын басып шығарады, оны таратқыш скетчіне (Sender_ESP) жазу керек.
+// [en] AlashESPNow: the receiver. Start it first: it prints its MAC address, which must be written into the transmitter sketch (Sender_ESP).
 #include <AlashESPNow.h>
 
 AlashESPNow now;

@@ -1,6 +1,6 @@
 {
   "name": "AlashESPNow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESP-NOW for ESP32 / ESP8266 without a router: send text or struct, broadcast, receive queue, delivery check, ru/kk/en tips, no dependencies",
   "keywords": "ESP-NOW, ESP32, ESP8266, wireless, remote control, broadcast",
   "repository": {

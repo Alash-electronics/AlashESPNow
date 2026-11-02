@@ -1,5 +1,9 @@
-// AlashESPNow: рассылка всем платам на канале без MAC-адресов. Загрузите этот скетч на несколько плат:
-// каждая раз в 3 секунды говорит "я здесь" и печатает, кого услышала. Подтверждений на рассылку нет.
+// [ru] AlashESPNow: рассылка всем платам на канале без MAC-адресов. Загрузите этот скетч на несколько плат:
+//      каждая раз в 3 секунды говорит "я здесь" и печатает, кого услышала. Подтверждений на рассылку нет.
+// [kk] AlashESPNow: MAC-мекенжайларсыз арнадағы барлық тақтаға тарату. Бұл скетчті бірнеше тақтаға жүктеңіз:
+//      әрқайсысы 3 секунд сайын «мен осындамын» дейді және кімді естігенін басып шығарады. Таратуға растау жоқ.
+// [en] AlashESPNow: broadcast to all boards on the channel without MAC addresses. Upload this sketch to several boards:
+//      each says "I am here" every 3 seconds and prints whom it heard. A broadcast has no acknowledgement.
 #include <AlashESPNow.h>
 
 AlashESPNow now;

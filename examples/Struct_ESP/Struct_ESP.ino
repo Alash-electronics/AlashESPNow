@@ -1,5 +1,9 @@
-// AlashESPNow: передача набора чисел одной структурой (например, показания датчиков). Один и тот же скетч для обеих плат:
-// плата с кнопкой BOOT (GPIO 0) удерживается при включении = передатчик, иначе приёмник. Структура должна быть одинаковой на обеих платах.
+// [ru] AlashESPNow: передача набора чисел одной структурой (например, показания датчиков). Один и тот же скетч для обеих плат:
+//      плата с кнопкой BOOT (GPIO 0) удерживается при включении = передатчик, иначе приёмник. Структура должна быть одинаковой на обеих платах.
+// [kk] AlashESPNow: сандар жиынын бір құрылыммен жіберу (мысалы, датчик көрсеткіштері). Екі тақтаға да бір скетч:
+//      қосқанда BOOT батырмасы (GPIO 0) ұсталған тақта = таратқыш, әйтпесе қабылдағыш. Құрылым екі тақтада бірдей болуы керек.
+// [en] AlashESPNow: sending a set of numbers as one struct (for example sensor readings). The same sketch for both boards:
+//      the board with the BOOT button (GPIO 0) held at power-on = the transmitter, otherwise the receiver. The struct must be identical on both boards.
 #include <AlashESPNow.h>
 
 struct Reading {
